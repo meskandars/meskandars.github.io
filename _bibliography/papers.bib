@@ -1,113 +1,21 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{GOLGOONI2023200258,
+title = {ZeroGrad: Costless conscious remedies for catastrophic overfitting in the FGSM adversarial training},
+journal = {Intelligent Systems with Applications},
+volume = {19},
+pages = {200258},
+year = {2023},
+issn = {2667-3053},
+doi = {https://doi.org/10.1016/j.iswa.2023.200258},
+url = {https://www.sciencedirect.com/science/article/pii/S2667305323000832},
+author = {Zeinab Golgooni and Mehrdad Saberi and Masih Eskandar and Mohammad Hossein Rohban},
+keywords = {Deep learning, Fast adversarial training, Adversarial robustness, Catastrophic overfitting, FGSM training},
+abstract = {Vulnerability of deep neural networks to small adversarial examples has recently attracted a lot of attention. As a result, making models robust to small adversarial noises has been sought in many safety critical applications. Adversarial training through iterative projected gradient descent (PGD) has been established as one of the mainstream ideas to achieve this goal. However, PGD is computationally demanding and often prohibitive in the case of large datasets and models. For this reason, the single-step PGD, also known as the Fast Gradient Sign Method (FGSM), has recently gained interest in the field. Unfortunately, FGSM-training leads to a phenomenon called “catastrophic overfitting,” which is a sudden drop in the test adversarial accuracy under the PGD attack. In this paper, we propose new methods to prevent this failure mode of the FGSM-based attacks with almost no extra computational cost. The proposed methods are also backed up with theoretical insights into the causes of the catastrophic overfitting. Our intuition is that small input gradients play a key role in this phenomenon. The signs of such gradients are quite unstable and fragile from an epoch to the next, making the signed gradient method discontinuous along the training process. These instabilities introduce large weight updates by the stochastic gradient descent, and hence potentially cause overfitting. To mitigate this issue, we propose to simply identify such gradients and make them zero prior to taking the sign in the FGSM attack calculation that is used in the training. This remedy makes the training perturbations stable, while almost preserving the adversarial property of such perturbations. The idea while being simple and efficient, achieves competitive adversarial accuracy on various datasets and can be used as an affordable method to train robust deep neural networks2.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{eskandar2024adapt,
+  title={ADAPT to Robustify Prompt Tuning Vision Transformers},
+  author={Eskandar, Masih and Imtiaz, Tooba and Wang, Zifeng and Dy, Jennifer},
+  journal={arXiv preprint arXiv:2403.13196},
+  year={2024}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
