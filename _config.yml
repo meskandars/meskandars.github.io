@@ -17,7 +17,7 @@ keywords: Machine Learning, Deep Learning, ML, Continual Learning, Adversarial R
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 𝛑 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://gnomy17.github.io # the base hostname & protocol for your site
+url: https://meskandars.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
