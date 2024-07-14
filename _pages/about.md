@@ -1,8 +1,8 @@
 ---
 layout: about
 title: about
-permalink: /about/
-subtitle: <a href='northeastern.edu'>Northeastern University</a>. Electrical and Computer Engineering Department, PhD
+permalink: /
+subtitle: Northeastern University, Electrical and Computer Engineering Department, PhD
 
 profile:
   align: right
