@@ -12,7 +12,6 @@ keywords = {Deep learning, Fast adversarial training, Adversarial robustness, Ca
 abstract = {Vulnerability of deep neural networks to small adversarial examples has recently attracted a lot of attention. As a result, making models robust to small adversarial noises has been sought in many safety critical applications. Adversarial training through iterative projected gradient descent (PGD) has been established as one of the mainstream ideas to achieve this goal. However, PGD is computationally demanding and often prohibitive in the case of large datasets and models. For this reason, the single-step PGD, also known as the Fast Gradient Sign Method (FGSM), has recently gained interest in the field. Unfortunately, FGSM-training leads to a phenomenon called “catastrophic overfitting,” which is a sudden drop in the test adversarial accuracy under the PGD attack. In this paper, we propose new methods to prevent this failure mode of the FGSM-based attacks with almost no extra computational cost. The proposed methods are also backed up with theoretical insights into the causes of the catastrophic overfitting. Our intuition is that small input gradients play a key role in this phenomenon. The signs of such gradients are quite unstable and fragile from an epoch to the next, making the signed gradient method discontinuous along the training process. These instabilities introduce large weight updates by the stochastic gradient descent, and hence potentially cause overfitting. To mitigate this issue, we propose to simply identify such gradients and make them zero prior to taking the sign in the FGSM attack calculation that is used in the training. This remedy makes the training perturbations stable, while almost preserving the adversarial property of such perturbations. The idea while being simple and efficient, achieves competitive adversarial accuracy on various datasets and can be used as an affordable method to train robust deep neural networks2.},
 selected= {true}
 }
-
 @article{eskandar2024adapt,
   title={ADAPT to Robustify Prompt Tuning Vision Transformers},
   author={Eskandar, Masih and Imtiaz, Tooba and Wang, Zifeng and Dy, Jennifer},
@@ -20,7 +19,6 @@ selected= {true}
   year={2024},
   selected={true}
 }
-
 @inproceedings{eskandar2025star,
 title={{STAR}: Stability-Inducing Weight Perturbation for Continual Learning},
 author={Eskandar, Masih and Imtiaz, Tooba and Hill, Davin and Wang, Zifeng and Dy, Jennifer},
